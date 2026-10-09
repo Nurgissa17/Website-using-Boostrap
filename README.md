@@ -31,4 +31,5 @@ Users can read news about popular games, view game reviews and ratings, and use 
 - Nuraly Adilgereev — Developed the About and Reviews pages, added game descriptions, reviews, and the ratings table.
 - Abish Adil — Developed the Contact page, worked on CSS styling, Flexbox, Grid, Bootstrap, and responsive design.
 
-## Website Link
+## Github Pages link
+https://nurgissa17.github.io/Website-using-Boostrap/
