@@ -1,0 +1,108 @@
+:root {
+    --bg: #101725;
+    --panel: #1b2639;
+    --text: #f1f5fa;
+}
+body {
+    background-color: var(--bg);
+    color: var(--text);
+    font-family: 'Roboto', Arial, sans-serif;
+}
+.bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    background-color: var(--panel);
+    padding: 12px 20px;
+}
+.logo {
+    width: 150px;
+    height: auto;
+}
+.menu {
+    display: flex;
+    gap: 20px;
+}
+.menu a {
+    color: var(--text);
+    text-decoration: none;
+}
+.menu a:hover, .menu a:focus {
+    color: #67b5ff;
+}
+.grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+.card {
+    position: relative;
+    background-color: var(--panel);
+    color: var(--text);
+    padding: 20px;
+    border: 1px solid #305782;
+    border-radius: 8px;
+}
+.card a {
+    color: #67b5ff;
+}
+.pic {
+    width: 100%;
+    height: auto;
+}
+.poster {
+    width: 65%;
+}
+.score {
+    position: absolute;
+    top: 15px;
+    left: 80%;
+    color: #67b5ff;
+    font-weight: bold;
+}
+.scores {
+    width: 100%;
+    border-collapse: collapse;
+}
+.scores th, .scores td {
+    padding: 10px;
+    border: 1px solid #305782;
+}
+.scores tr:nth-child(even) {
+    background-color: var(--panel);
+}
+.form {
+    max-width: 500px;
+}
+#message {
+    border: 1px solid #305782;
+}
+.form label {
+    display: block;
+    margin-top: 15px;
+}
+.foot {
+    background-color: var(--panel);
+    padding: 15px;
+}
+.foot a {
+    color: #67b5ff;
+}
+@media (max-width: 768px) {
+    .grid {
+        grid-template-columns: 1fr;
+    }
+}
+@media (max-width: 575px) {
+    .bar {
+        flex-direction: column;
+    }
+    .menu {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    h1 {
+        font-size: 28px;
+    }
+}
