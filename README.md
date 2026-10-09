@@ -27,9 +27,9 @@ Users can read news about popular games, view game reviews and ratings, and use 
 - Media Queries
 
 ## Individual Contributions
-- Nurgissa Pernebay — Developed the Home and News pages, added gaming news content and images.
+- Nurgissa Pernebay — Developed the Main file(index.html), worked on CSS styling, Flexbox, Grid, Bootstrap, and responsive design.
 - Nuraly Adilgereev — Developed the About and Reviews pages, added game descriptions, reviews, and the ratings table.
-- Abish Adil — Developed the Contact page, worked on CSS styling, Flexbox, Grid, Bootstrap, and responsive design.
+- Abish Adil — Developed the Home and News pages, added gaming news content and images.
 
 ## Github Pages link
 https://nurgissa17.github.io/Website-using-Boostrap/
